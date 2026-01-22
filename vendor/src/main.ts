@@ -3,8 +3,6 @@ import { loadFromStorage } from './app.storage';
 import { renderApp } from './components/App';
 
 document.addEventListener('DOMContentLoaded', (): void => {
-  console.log('Vendor Form');
-
   loadFromStorage();
   renderApp();
 });

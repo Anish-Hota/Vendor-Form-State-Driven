@@ -1,7 +1,7 @@
 import { state } from './app.state';
 import type { VendorData } from './types';
 
-const STORAGE_KEY = 'vendor_management_data';
+const STORAGE_KEY = 'vendor_form_data';
 
 export function saveToStorage(): void {
   try {
